@@ -78,6 +78,14 @@ nav ul li a:hover {
     color: white;
 }
 
+.paragraph{
+    text-align: justify;
+    margin-top: -30px;
+    margin-bottom: 29px;
+    letter-spacing: 4px;
+
+}
+
 h1 {
     color: white;
     margin: 20px 0px 20px;
@@ -111,6 +119,10 @@ h4 {
     font-weight: bold;
 }
 
+.input-center{
+    text-align: center;
+}
+
 h3{
     color:white;
     font-size: 20px;
@@ -121,7 +133,6 @@ h3{
     width: 380px;
     max-width: 100%;
     position: relative;
-    margin-top: -23px;
 }
 
 .myEmail form input:first-child{
@@ -162,7 +173,7 @@ h3{
   
   @keyframes custom-name {  
     0% { opacity: 1.0; }
-     50% { color: rgb(8, 62, 179)}
+     50% { color: rgb(242, 186, 0)}
     100% { opacity: 1.0; }
   }
 
