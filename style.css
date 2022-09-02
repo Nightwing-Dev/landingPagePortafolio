@@ -166,8 +166,9 @@ h3 {
 
 .about img {
     height: auto;
-    width: 330px;
+    width: 290px;
     border-radius: 20px;
+    filter: grayscale(3);
 }
 
 .about-text {
@@ -212,8 +213,15 @@ button {
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 13px;
-    
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
 }
 
 @-moz-keyframes custom-name {
