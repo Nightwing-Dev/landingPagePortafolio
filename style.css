@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 
+.imgbird{
+    width: 500px;
+    align-items: center;
+}
 
 * {
     padding: 0;
@@ -13,6 +17,7 @@
     height: 100vh;
     width: 100%;
     background-image: url('./img/buho\(4\).jpg');
+    background-repeat: no-repeat;
     background: cover;
     background-position: center;
 }
@@ -170,6 +175,8 @@ h3 {
     right: 6px;
     margin-top: 20px;
 }
+
+
 
 .img-birds{
   display: flex;
